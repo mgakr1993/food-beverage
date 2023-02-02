@@ -53,8 +53,10 @@ a:link{
 }
 /*
 
-/*-----logo and company name bar-----*/
-.logo01{
+
+/*-----------------Create Responsive 992-768-----------------------------------------------------------------*/
+
+  .logo01{
   box-sizing: border-box;
   width: 100%;
   height: 60px;
@@ -70,17 +72,20 @@ a:link{
 
 .logo02{
   box-sizing: border-box;
-  width: 5%;
+  width: 7%;
   height: 60px;
   background-color: none;
   position: fixed;
   top: 0;
   z-index: 13;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo02 img{
   
-  width: 100%;
+  width: 90%;
+  height:58px;
   padding: 0;
   margin: 0;
   position: absolute;
@@ -90,7 +95,7 @@ a:link{
 
 .logo03{
   box-sizing: border-box;
-  width: 65%;
+  width: 60%;
   height: 60px;
   background-color: none;
   position: fixed;
@@ -107,14 +112,14 @@ a:link{
 
 .logo03 h1{
 text-align: left;
-font-size: 40px;
+font-size: 30px;
 font-family: cartoon;
 
 }
 
 .logo04{
   box-sizing: border-box;
-  width: 20%;
+  width: 16%;
   height: 60px;
   background-color: none;
   position: fixed;
@@ -140,9 +145,9 @@ font-family: cartoon;
   z-index: 13;
   color: lightblue;
   display: flex;
-  justify-content: center;
+  justify-content: justify;
   align-items: center;
-  text-align: center;
+  font-size:10px
 }
 
 
@@ -171,6 +176,7 @@ font-family: cartoon;
   position: fixed;
   top: 60px;
   z-index: 11;
+  font-size:12px
 
 }
 
@@ -182,7 +188,7 @@ font-family: cartoon;
   padding: 0;
   margin: 0;
   position: fixed;
-  top: 111px;
+  top: 100px;
   z-index: 10;
   
 }
@@ -205,7 +211,7 @@ font-family: cartoon;
   justify-content: center;
   align-items: center;
   font-family: motion;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 
@@ -216,7 +222,7 @@ font-family: cartoon;
     width: 100%;
     height: auto;
     position: absolute;
-    top: 168px;
+    top: 155px;
     z-index: 1;
 }
 
@@ -290,7 +296,7 @@ font-family: cartoon;
   width: 99%;
   top: 0;
   margin: 0.5%;
-  height: 260px;
+  height: 475px;
   z-index: 8;
 }
 
@@ -300,7 +306,7 @@ font-family: cartoon;
   width: 100%;
   padding: 1%;
   top: 0;
-  height: 260px;
+  height: 470px;
   background-color: #0a529b;
   z-index: 8;
 }
@@ -338,7 +344,7 @@ font-family: cartoon;
   top: 40px;
   padding: 0.25%;
   left: 0;
-  height: 220px;
+  height: 430px;
 }
 
 .breakfast2 .content1{
@@ -359,8 +365,8 @@ font-family: cartoon;
 
 .item1{
   box-sizing: border-box;
-  width: 15.66%;
-  margin: .5%;
+  width: 32%;
+  margin: .66%;
   position: relative;
   top: 0px;
   left: 0;
@@ -382,15 +388,16 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 100%;
+  height: 200px;
   padding: 2%;
   top: 0;
   left: 0;
-  height: 120px;
 }
 
 
 .image img{
   border-radius: 4%;
+  height: 185px;
 }
 
 .name{
@@ -398,7 +405,7 @@ font-family: cartoon;
   position: absolute;
   display: flex;
   width: 100%;
-  top: 90px;
+  top: 50px;
   left: 0;
   height: 30px;
   align-items: center;
@@ -409,8 +416,8 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  top: 110px;
-  left: 0;
+  top: 70px;
+  left: 20px;
   border: 0;
   height: 65px;
 }
@@ -429,9 +436,9 @@ font-family: cartoon;
 
 .item1:hover{
   box-sizing: border-box;
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 2;
-  height: 220px;
+  height: 200px;
   
 }
 
@@ -474,7 +481,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 300px;
+  top: 500px;
   margin: 0.5%;
   height: 260px;
   background-color: yellow;
@@ -512,7 +519,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 600px;
+  top: 1000px;
   margin: 0.5%;
   height: 260px;
   background-color: #f1691e;
@@ -550,7 +557,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 900px;
+  top: 1500px;
   margin: 0.5%;
   height: 260px;
   background-color: #bfae1a;
@@ -586,7 +593,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 1200px;
+  top: 2000px;
   margin: 0.5%;
   height: 260px;
   background-color: #9d040c;
@@ -620,7 +627,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 1500px;
+  top: 2500px;
   margin: 0.5%;
   height: 260px;
   background-color: #4e420c;
@@ -654,7 +661,7 @@ font-family: cartoon;
   box-sizing: border-box;
   position: absolute;
   width: 99%;
-  top: 2000px;
+  top: 3200px;
   margin: 0.5%;
   height: 450px;
   background-color: darkblue;
@@ -744,7 +751,7 @@ font-family: cartoon;
  display: none;
   position: fixed;
   left: 0;
-  top: 160px;
+  top: 155px;
   width: 100%;
   height:auto;
   overflow: auto;
@@ -783,13 +790,14 @@ font-family: cartoon;
   width: 100%;
   overflow-y: scroll;
   overscroll-behavior: none;
+  text-size-adjust: auto;
 
 }
 
 
 header {
   position: fixed;
-  left: 12.5%;
+  left: 12.3%;
   width: 73.8%;
   background-color: none;
   height: 50px;
@@ -808,6 +816,8 @@ header {
   position: absolute;
   top: 50px;
   left: 12.5%;
+  font-size: 10px;
+
 }
 
 .page-detail table td{
@@ -816,50 +826,8 @@ header {
   border-color: darkblue;
   border-style: dashed;
   padding: 20px;
+
 }
 
-#id01 table{
-background-color: lightBlue;
-}
-#id01 header{
-background-color: Blue;
-}
-
-#id02 table{
-background-color: lightgreen;
-}
-#id02 header{
-background-color: Green;
-}
-
-#id03 table{
-background-color: #EFC34B;
-}
-#id03 header{
-background-color: #F1691E;
-}
-
-#id04 table{
-background-color: #F0F174;
-}
-#id04 header{
-background-color: #BFAE1A;
-}
-
-#id05 table{
-background-color: #ea6e6e;
-}
-#id05 header{
-background-color: darkred;
-}
-
-#id06 table{
-background-color: #d89d3e;
-}
-#id06 header{
-background-color: #66430c;
-}
-
-/*-----------------Popup DIV------------*/
-
-
+ 
+/*-----------------Create Responsive 992-768-----------------------------------------------------------------*/
